@@ -7,5 +7,5 @@ stopdb:
 initdb:
 	@docker exec postgres-db psql -U postgres -c "CREATE DATABASE gator;"
 
-migrateup:
+migrate:
 	@npx drizzle-kit migrate
