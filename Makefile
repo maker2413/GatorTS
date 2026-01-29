@@ -9,3 +9,6 @@ initdb:
 
 migrate:
 	@npx drizzle-kit migrate
+
+generate:
+	@npx drizzle-kit generate
